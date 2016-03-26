@@ -107,7 +107,6 @@ a:hover { text-decoration: underline; }
 /* Code */
 .highlight pre {
   font-size: 14px;
-  overflow: auto;
 }
 
 /* Sidebar */
@@ -242,4 +241,15 @@ aside > h2 {
 
 img {
   max-width: 100%;
+}
+
+/* ipynb */
+.input
+{
+    overflow: auto
+}
+
+.output
+{
+    overflow: auto
 }
